@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Estudio Lunar — Comunicación, marketing y diseño</title>
-<meta name="description" content="Estudio de comunicación, marketing y diseño en Córdoba, Argentina. Branding, campañas de lanzamiento, gestión de redes y desarrollo de marca personal.">
+<title>Estudio Lunar — Comunicación, marketing, diseño y desarrollo</title>
+<meta name="description" content="Estudio de comunicación, marketing, diseño y desarrollo en Córdoba, Argentina. Branding, campañas, gestión de redes, desarrollo de software, sistemas de gestión, aplicaciones y bots con inteligencia artificial.">
 <meta name="theme-color" content="#05070B">
-<meta property="og:title" content="Estudio Lunar — Comunicación, marketing y diseño">
-<meta property="og:description" content="No hay gravedad para las buenas ideas. Branding, campañas y comunicación para marcas que quieren despegar.">
+<meta property="og:title" content="Estudio Lunar — Comunicación, marketing, diseño y desarrollo">
+<meta property="og:description" content="No hay gravedad para las buenas ideas. Branding, campañas, software y sistemas para marcas que quieren despegar.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_AR">
 <!-- TODO desarrollador: agregar og:image (1200x630px) y og:url con el dominio final -->
@@ -95,7 +95,7 @@ nav{ display:flex; justify-content:space-between; align-items:center; padding: 1
   transition: max-height .3s ease, padding .3s ease;
   font-family:var(--font-mono); font-size:13px; text-transform:uppercase; letter-spacing:0.06em;
 }
-.mobile-menu.open{ max-height:340px; padding: 8px 24px 22px; border-top:1px solid var(--line); }
+.mobile-menu.open{ max-height:420px; padding: 8px 24px 22px; border-top:1px solid var(--line); }
 .mobile-menu a{ color:var(--silver); padding:14px 0; border-bottom:1px solid var(--line); }
 .mobile-menu a:last-child{ border-bottom:none; }
 .mobile-menu a.btn{ padding:14px 18px; }
@@ -146,6 +146,8 @@ nav{ display:flex; justify-content:space-between; align-items:center; padding: 1
 .service .phase{ font-family:var(--font-mono); font-size:10.5px; color: var(--blue); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:14px; }
 .service h3{ font-size:19px; margin-bottom:10px; }
 .service p{ font-size:13.5px; }
+.section-head.sub{ margin-top: 88px; margin-bottom: 40px; scroll-margin-top: 90px; }
+.section-head.sub h2{ line-height:1.15; }
 
 /* ---------- proceso ---------- */
 .timeline{ margin-top: 20px; }
@@ -217,7 +219,7 @@ nav{ display:flex; justify-content:space-between; align-items:center; padding: 1
 footer{ padding: 50px 0; }
 .foot-inner{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px; }
 .foot-inner .brand-name{ font-size:14px; }
-.foot-links{ display:flex; gap:24px; font-family:var(--font-mono); font-size:11px; color:var(--grey); text-transform:uppercase; letter-spacing:0.06em; }
+.foot-links{ display:flex; flex-wrap:wrap; gap:12px 24px; font-family:var(--font-mono); font-size:11px; color:var(--grey); text-transform:uppercase; letter-spacing:0.06em; }
 .foot-links a:hover{ color:var(--lunar); }
 
 /* ---------- dev handoff notes ---------- */
@@ -240,6 +242,7 @@ footer{ padding: 50px 0; }
     </div>
     <div class="nav-links">
       <a href="#servicios">Servicios</a>
+      <a href="#desarrollo">Desarrollo</a>
       <a href="#proceso">Proceso</a>
       <a href="#trabajos">Trabajos</a>
       <a href="#contacto">Contacto</a>
@@ -251,6 +254,7 @@ footer{ padding: 50px 0; }
   </nav>
   <div class="mobile-menu" id="mobileMenu">
     <a href="#servicios">Servicios</a>
+    <a href="#desarrollo">Desarrollo</a>
     <a href="#proceso">Proceso</a>
     <a href="#trabajos">Trabajos</a>
     <a href="#contacto">Contacto</a>
@@ -263,7 +267,7 @@ footer{ padding: 50px 0; }
   <div class="hero-inner">
     <div class="status-line"><span class="status-dot"></span>Sistemas listos — aceptando nuevas misiones</div>
     <h1>No hay gravedad<br>para las <em>buenas ideas</em>.</h1>
-    <p class="hero-sub">Estudio de comunicación, marketing y diseño. Llevamos marcas fuera de la órbita de lo esperable — con estrategia real detrás de cada despegue.</p>
+    <p class="hero-sub">Estudio de comunicación, marketing, diseño y desarrollo. Llevamos marcas fuera de la órbita de lo esperable — con estrategia real detrás de cada despegue.</p>
     <div class="hero-ctas">
       <a href="#contacto" class="btn">Despegar mi marca <span class="arrow">→</span></a>
       <a href="#trabajos" class="btn ghost">Ver trabajos</a>
@@ -271,7 +275,7 @@ footer{ padding: 50px 0; }
     <div class="hero-meta">
       <div><strong>40+</strong>Misiones completadas</div>
       <div><strong>AR</strong>Basados en Argentina</div>
-      <div><strong>360°</strong>Comunicación, marketing y diseño</div>
+      <div><strong>360°</strong>Comunicación, marketing, diseño y desarrollo</div>
     </div>
   </div>
 </section>
@@ -314,6 +318,45 @@ footer{ padding: 50px 0; }
         <div class="phase">Reportes</div>
         <h3>Bitácora</h3>
         <p>Reportes mensuales de resultados y métricas, sin vueltas y con datos concretos.</p>
+      </div>
+    </div>
+
+    <!-- ============ DESARROLLO ============ -->
+    <div class="section-head sub" id="desarrollo">
+      <div class="eyebrow">Desarrollo</div>
+      <h2>Desarrollo de software, de punta a punta.</h2>
+      <p>Diseñamos y construimos sistemas, aplicaciones y automatizaciones a medida, con el mismo criterio de diseño y estrategia que aplicamos a tu marca.</p>
+    </div>
+    <div class="services">
+      <div class="service">
+        <div class="phase">Software</div>
+        <h3>Software a medida</h3>
+        <p>Desarrollamos la herramienta que tu negocio necesita cuando lo que hay en el mercado no alcanza.</p>
+      </div>
+      <div class="service">
+        <div class="phase">Sistemas</div>
+        <h3>Sistemas de gestión</h3>
+        <p>Clientes, turnos, stock, ventas y reportes en un solo lugar, armado a la medida de cómo trabajás.</p>
+      </div>
+      <div class="service">
+        <div class="phase">Aplicaciones</div>
+        <h3>Aplicaciones web y móviles</h3>
+        <p>Apps para tus clientes o para tu equipo, con diseño cuidado y pensadas para usarse todos los días.</p>
+      </div>
+      <div class="service">
+        <div class="phase">Inteligencia artificial</div>
+        <h3>Bots con IA</h3>
+        <p>Asistentes y agentes con inteligencia artificial que responden consultas y automatizan tareas en WhatsApp, web o redes.</p>
+      </div>
+      <div class="service">
+        <div class="phase">Web</div>
+        <h3>Sitios web y e-commerce</h3>
+        <p>Sitios claros y rápidos, con tienda online, suscripciones o reservas cuando el negocio lo necesita.</p>
+      </div>
+      <div class="service">
+        <div class="phase">Automatización</div>
+        <h3>Integraciones y automatización</h3>
+        <p>Conectamos las herramientas que ya usás —pagos, facturación, planillas, CRM— para eliminar tareas manuales.</p>
       </div>
     </div>
   </div>
@@ -412,6 +455,7 @@ footer{ padding: 50px 0; }
     </div>
     <div class="foot-links">
       <a href="#servicios">Servicios</a>
+      <a href="#desarrollo">Desarrollo</a>
       <a href="#trabajos">Trabajos</a>
       <a href="#contacto">Contacto</a>
       <a href="#">Instagram</a>
